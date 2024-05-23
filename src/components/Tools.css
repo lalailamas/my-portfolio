@@ -1,0 +1,46 @@
+#tools {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+    padding: 0px;
+}
+
+/* Definir la animación */
+@keyframes slidein {
+    from {
+      transform: translateX(0%);
+    }
+  
+    to {
+      transform: translateX(30%);
+    }
+  }
+
+/* Aplicar la animación al h2 */
+#tools h2 {
+    animation: slidein 8s ease-out 1s infinite alternate;
+    text-shadow: #333 6px 6px;
+    font-size: 20px;
+    text-align: center;
+    color:white
+}
+
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    max-width: 100%;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 50px;
+}
