@@ -7,10 +7,10 @@ body {
     color: white;
 }
 
-
-
 main {
     padding: 1em;
+    display: flex;
+    gap: 1em;
 }
 
 section {

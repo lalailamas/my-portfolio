@@ -1,0 +1,75 @@
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5em; 
+    gap: 1em;
+    width: 80%; /* Ocupa la mitad del ancho */
+    text-align: left;
+    font-size: 12px;
+}
+
+.project {
+    background-color: rgba(111, 166, 216, 0.3);
+    border: 1px solid #ffffff; 
+    border-radius: 24px;
+    margin: 0.5em;
+    display: flex;
+    flex-direction: row; /* Cambiar a fila */
+    align-items: center; /* Alinear items al centro verticalmente */
+    padding: 0.3em;
+}
+
+.project-image {
+    width: 30%; 
+    height: auto;
+    border-radius: 24px;
+    padding: 0.6em;
+    object-fit: cover; /* Cubrir el contenedor, cortando si es necesario */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadir una sombra */
+}
+.project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left; /* Centrar verticalmente */
+    width: 100%; /* Ajustar según necesidad */
+}
+
+.project h3 {
+    font-size: 12px;
+    margin: 0.5em;
+    padding: 0.5em;
+    padding-bottom: 0;
+}
+
+.project p {
+    font-size: 10px;
+    margin: 0.5em;
+    text-align: center;
+}
+
+.project-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.project-link:hover {
+    transform: scale(1.1);
+}
+
+.project-link svg {
+    margin-left: 4px; /* Espacio entre el texto y el ícono */
+}
+
+#projects h2 {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.2rem;
+    text-shadow: #333 6px 6px;
+    font-size: 20px;
+    text-align: center;
+    color:white
+}
